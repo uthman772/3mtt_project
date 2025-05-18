@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Profile Page</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .bio {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background-color: white;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .bio img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .bio p {
+      font-size: 1.2em;
+    }
+
+    .hobbies {
+      padding: 20px;
+      background-color: white;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .hobbies h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .hobbies ul {
+      list-style: disc;
+      padding-left: 40px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My responsive landing page</h1>
+    <nav>
+      <ul>
+        <li><a href="#bio">Bio</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="bio" class="bio">
+    <img src="profile.jpg" alt="Profile Picture">
+    <p>Hello! My name is usman yau muhammad. I am passionate about web development and enjoy creating responsive and user-friendly websites. Welcome to my personal profile page!</p>
+  </section>
+
+  <section id="hobbies" class="hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Reading books</li>
+      <li>Traveling to new places</li>
+      <li>Photography</li>
+      <li>Playing video games</li>
+      <li>Learning new programming languages</li>
+    </ul>
+  </section>
+
+  <footer id="contact">
+    <p>Contact me at: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    <p>&copy; 2025 uthman</p>
+  </footer>
+</body>
+</html>
